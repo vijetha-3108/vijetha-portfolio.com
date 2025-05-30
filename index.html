@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Vijetha | Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Vijetha</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I am Vijetha, a motivated and detail-oriented software developer specializing in Python, JavaScript,
+                HTML, and CSS. Currently pursuing a Bachelor’s degree in Computer Science Engineering, I am dedicated to
+                developing robust, scalable, and user-centric applications.
+            </p>
+            <p>
+                With a strong foundation in programming and UI/UX design principles, I focus on creating clean,
+                maintainable code and intuitive user experiences. I am passionate about solving complex problems and
+                continuously expanding my technical skill set.
+            </p>
+            <p>
+                I thrive in collaborative environments and I am eager to contribute to innovative projects that
+                challenge
+                and refine my abilities. My goal is to leverage my skills to deliver impactful software solutions and to
+                grow as a professional in the technology industry.
+            </p>
+        </section>
+
+
+        <section id="projects" class="projects">
+            <h2>Projects I've Built</h2>
+
+            <div class="project-card">
+                <h3>📝 To-Do List App</h3>
+                <p><strong>Problem:</strong> People struggle with task organization.</p>
+                <p><strong>Tech Used:</strong> Python, Tkinter</p>
+                <p><strong>Contribution:</strong> Full UI/UX design, CRUD, persistent storage.</p>
+                <p><strong>Challenge:</strong> Responsive UI in Tkinter. <em>Solution:</em> Studied layout systems.</p>
+                <p><a href="https://github.com/vijetha-3108/ToDoListCODSOFT" target="_blank">GitHub</a></p>
+            </div>
+
+            <div class="project-card">
+                <h3>🍽️ Restaurant Menu UI</h3>
+                <p><strong>Problem:</strong> Need for digital-first restaurant menus.</p>
+                <p><strong>Tech Used:</strong> HTML, CSS, JS</p>
+                <p><strong>Contribution:</strong> Built responsive, interactive layout.</p>
+                <p><strong>Challenge:</strong> Mobile-friendliness. <em>Solution:</em> Flexbox, media queries.</p>
+                <p><a href="https://github.com/vijetha-3108/SugarSpiceMenu" target="_blank">GitHub</a>
+                </p>
+            </div>
+
+            <div class="project-card">
+                <h3>📒 Contact Book Web App</h3>
+                <p><strong>Problem:</strong> Messy contact management, Digital way to save/manage contacts in browser..
+                </p>
+                <p><strong>Tech Used:</strong> HTML, CSS, JS</p>
+                <p><strong>Contribution:</strong> Search, drag-drop, favorites, responsive UI.</p>
+                <p><strong>Challenge:</strong> Drag-drop logic. <em>Solution:</em> Mastered DOM events.</p>
+                <p><a href="https://github.com/vijetha-3108/contactbook" target="_blank">GitHub</a>
+                </p>
+            </div>
+
+            <div class="project-card">
+                <h3>🧮 Calculator (Tkinter)</h3>
+                <p><strong>Problem:</strong> Need for simple offline calculator.</p>
+                <p><strong>Tech Used:</strong> Python, Tkinter</p>
+                <p><strong>Contribution:</strong> Designed GUI, implemented arithmetic logic.</p>
+                <p><strong>Challenge:</strong> Button-grid layout. <em>Solution:</em> Used grid layout with lambda
+                    callbacks.</p>
+                <p><a href="https://github.com/vijetha-3108/CalculatorCODSOFT" target="_blank">GitHub</a></p>
+            </div>
+
+
+
+            <div class="project-card">
+                <h3>❓ Quiz Application</h3>
+                <p><strong>Problem:</strong> Need for self-evaluation tool for learners.</p>
+                <p><strong>Tech Used:</strong> HTML, CSS, JS (can be Python if CLI)</p>
+                <p><strong>Contribution:</strong> Multiple-choice system, score tracking, timer.</p>
+                <p><strong>Challenge:</strong> Question shuffling & feedback. <em>Solution:</em> JS logic with event
+                    delegation.</p>
+                <p><a href="https://github.com/vijetha-3108/quiz" target="_blank">GitHub</a>
+                </p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="mailto:vijetha1601@gmail.com" method="POST" enctype="text/plain">
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" placeholder="Your Name" required />
+
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="Your Email" required />
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Write your message here..."
+                    required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <button id="backToTop" aria-label="Back to top" title="Back to top" style="
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  background-color: #4db6ac;
+  border: none;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  display: none;
+  z-index: 10000;
+  user-select: none;
+">
+        ↑
+    </button>
+
+
+    <footer>
+        <div style="margin-bottom: 0.5rem;">
+            &copy; 2025 Vijetha. All rights reserved.
+        </div>
+        <div style="display: flex; justify-content: center; gap: 1.5rem;">
+            <a href="https://www.linkedin.com/in/vijetha-v-hegde-26a513322" target="_blank" rel="noopener noreferrer"
+                aria-label="LinkedIn" style="color: #6c757d;">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="24" height="24" viewBox="0 0 24 24">
+                    <path
+                        d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM0 8h5v16H0V8zm7.5 0h4.8v2.2h.1c.7-1.3 2.4-2.7 5-2.7 5.3 0 6.3 3.5 6.3 8v8h-5v-7c0-1.7 0-4-2.4-4s-2.8 1.9-2.8 3.8v7.2H7.5V8z" />
+                </svg>
+            </a>
+
+            <a href="https://github.com/vijetha-3108" target="_blank" rel="noopener noreferrer" aria-label="GitHub"
+                style="color: #6c757d;">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="24" height="24" viewBox="0 0 24 24">
+                    <path
+                        d="M12 0C5.37 0 0 5.37 0 12a12 12 0 008.21 11.4c.6.11.82-.26.82-.58v-2.2c-3.34.73-4.04-1.61-4.04-1.61-.55-1.4-1.35-1.78-1.35-1.78-1.1-.75.08-.74.08-.74 1.22.08 1.87 1.25 1.87 1.25 1.08 1.85 2.83 1.32 3.52 1.01.11-.79.42-1.32.76-1.63-2.67-.3-5.47-1.34-5.47-5.94 0-1.31.47-2.39 1.24-3.23-.13-.3-.54-1.5.12-3.12 0 0 1.01-.32 3.3 1.23a11.46 11.46 0 016 0c2.3-1.55 3.3-1.23 3.3-1.23.66 1.62.25 2.82.12 3.12.77.84 1.24 1.92 1.24 3.23 0 4.6-2.8 5.64-5.48 5.93.43.37.81 1.1.81 2.23v3.31c0 .32.22.69.82.58A12 12 0 0024 12c0-6.63-5.37-12-12-12z" />
+                </svg>
+            </a>
+
+
+        </div>
+    </footer>
+
+    <script src="index.js">
+    </script>
+
+
+
+</body>
+
+</html>
